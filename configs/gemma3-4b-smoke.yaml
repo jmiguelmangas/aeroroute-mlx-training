@@ -1,0 +1,6 @@
+experiment: gemma3-4b-smoke
+base_model: mlx-community/gemma-3-text-4b-it-4bit
+base_revision: REPLACE_WITH_IMMUTABLE_REVISION
+fine_tune_type: lora
+seed: 42
+contract_version: 1.0.0
