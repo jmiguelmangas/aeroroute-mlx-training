@@ -5,7 +5,11 @@ build-backend = "hatchling.build"
 name = "aeroroute-mlx-training"
 version = "0.1.0"
 requires-python = ">=3.12"
+
+[project.scripts]
+aeroroute-mlx-training = "aeroroute_mlx_training.cli:main"
 [dependency-groups]
 dev = ["pytest>=8.0", "ruff>=0.11"]
+training = ["mlx-lm[train]>=0.31.3,<0.32"]
 [tool.ruff]
 line-length = 80

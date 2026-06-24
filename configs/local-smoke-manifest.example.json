@@ -1,0 +1,9 @@
+{
+  "base_model": "mlx-community/gemma-3-text-4b-it-4bit",
+  "architecture": "gemma3_text",
+  "modality": "text",
+  "quantization": "mlx-4bit",
+  "base_revision": "REPLACE_WITH_IMMUTABLE_REVISION",
+  "local_checkpoint": "/absolute/path/to/local/gemma-checkpoint",
+  "license_acceptance_record": "/absolute/path/to/license-acceptance.json"
+}
