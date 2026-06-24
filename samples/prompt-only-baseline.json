@@ -1,0 +1,9 @@
+[
+  {
+    "case_id": "mad-jfk-template",
+    "expected_winner": "minimum_fuel",
+    "allowed_numeric_values": ["18000", "420"],
+    "prediction": "The selected synthetic route uses 18000 kg and takes 420 minutes.",
+    "predicted_winner": "minimum_fuel"
+  }
+]

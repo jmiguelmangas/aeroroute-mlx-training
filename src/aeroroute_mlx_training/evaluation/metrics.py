@@ -36,7 +36,7 @@ def evaluate(cases: tuple[EvaluationCase, ...]) -> EvaluationReport:
         tokens = {
             _normalize(token) for token in _numeric_tokens(case.prediction)
         }
-        if tokens <= allowed:
+        if tokens == allowed:
             numeric_passes += 1
         if tokens - allowed:
             unsupported_claims += 1
