@@ -6,3 +6,6 @@ dist/
 models/
 artifacts/
 datasets/
+.DS_Store
+._*
+.AppleDouble/

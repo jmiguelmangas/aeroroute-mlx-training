@@ -10,8 +10,9 @@ def validate_record(record: ExplanationRecord) -> None:
         raise ValueError("unsupported explanation contract version")
     if not record.group_id or not record.target:
         raise ValueError("record group and target are required")
-    required = {"fuel_kg", "time_min"}
-    if required - set(record.facts):
+    required = ("fuel_kg", "time_min")
+    missing = set(required) - set(record.facts)
+    if missing:
         raise ValueError("record facts are missing required numeric values")
     for key in required:
         value = record.facts[key]
