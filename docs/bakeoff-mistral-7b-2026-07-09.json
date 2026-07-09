@@ -1,0 +1,204 @@
+{
+  "api_errors": 1,
+  "cases": [
+    {
+      "case_id": "LEMD-LFPG-A320-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 5.003,
+      "passed": true,
+      "text": "The selected synthetic trajectory from LEMD to LFPG covers 1063 km, takes an estimated 112 minutes, and uses 4197 kg of modeled trip fuel. Compared with the baseline, it saves 23 kg of modeled trip fuel and has a negligible difference in minutes."
+    },
+    {
+      "case_id": "EGLL-EDDF-A320-minimum_time",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.811,
+      "passed": true,
+      "text": "The selected synthetic trajectory from EGLL to EDDF covers 656 km, takes an estimated 83 minutes, and uses 3030 kg of modeled trip fuel. Compared with the baseline, it saves 14 kg of modeled trip fuel and has a negligible difference in minutes."
+    },
+    {
+      "case_id": "EHAM-LOWW-B738-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.85,
+      "passed": true,
+      "text": "The selected synthetic trajectory from EHAM to LOWW covers 962 km, takes an estimated 103 minutes, and uses 4075 kg of modeled trip fuel. Compared with the baseline, it saves 22 kg of modeled trip fuel and has a negligible difference in minutes."
+    },
+    {
+      "case_id": "LEMD-EDDM-A320-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 4.569,
+      "passed": true,
+      "text": "The selected synthetic trajectory from LEMD to EDDM covers 1498 km, takes an estimated 144 minutes, and uses 5466 kg of modeled trip fuel. Compared with the baseline, it saves 33 kg of modeled trip fuel and saves 1 minute. This is an educational trajectory-efficiency estimate, not operational flight-planning advice."
+    },
+    {
+      "case_id": "LFPG-LIMC-B738-minimum_time",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.857,
+      "passed": true,
+      "text": "The selected synthetic trajectory from LFPG to LIMC covers 599 km, takes an estimated 77 minutes, and uses 2982 kg of modeled trip fuel. Compared with the baseline, it saves 13 kg of modeled trip fuel and has a negligible difference in minutes."
+    },
+    {
+      "case_id": "EGLL-EBBR-A320-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.793,
+      "passed": true,
+      "text": "The selected synthetic trajectory from EGLL to EBBR covers 351 km, takes an estimated 60 minutes, and uses 2152 kg of modeled trip fuel. Compared with the baseline, it saves 7 kg of modeled trip fuel and has a negligible difference in minutes."
+    },
+    {
+      "case_id": "LEMD-KJFK-B77W-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.809,
+      "passed": true,
+      "text": "The synthetic trajectory from LEMD to KJFK covers 5775 km, takes 421 minutes, and uses 60452 kg of modeled trip fuel. Compared to the baseline, it saves 447 kg of modeled trip fuel and 2 minutes."
+    },
+    {
+      "case_id": "KJFK-LEMD-B788-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.858,
+      "passed": true,
+      "text": "The minimum_fuel profile from KJFK to LEMD covers 5775 km, takes approximately 421 minutes, and uses 47420 kg of modeled trip fuel. Compared to the baseline, it saves 355 kg of modeled trip fuel and 2 minutes."
+    },
+    {
+      "case_id": "EDDF-KATL-B77W-minimum_time",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.831,
+      "passed": true,
+      "text": "The selected synthetic trajectory from EDDF to KATL covers 7427 km, takes an estimated 532 minutes, and uses 78249 kg of modeled trip fuel. Compared with the baseline, it saves 593 kg of modeled trip fuel and saves 3 minutes."
+    },
+    {
+      "case_id": "EGLL-KBOS-B788-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.917,
+      "passed": true,
+      "text": "The selected synthetic trajectory from EGLL to KBOS covers 5255 km, takes an estimated 386 minutes, and uses 43099 kg of modeled trip fuel. Compared with the baseline, it saves 320 kg of modeled trip fuel and saves 2 minutes."
+    },
+    {
+      "case_id": "LEMD-MMMX-A359-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 4.45,
+      "passed": true,
+      "text": "The deterministic summary is as follows: For the minimum_fuel profile, the synthetic trajectory from LEMD to MMMX covers 9080 km, takes an estimated 643 minutes, and uses 78420 kg of modeled trip fuel. Compared with the baseline, it saves 601 kg of modeled trip fuel and saves 4 minutes."
+    },
+    {
+      "case_id": "KJFK-CYUL-A320-minimum_time",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.889,
+      "passed": true,
+      "text": "The selected synthetic trajectory from KJFK to CYUL covers 536 km, takes an estimated 74 minutes, and uses 2700 kg of modeled trip fuel. Compared with the baseline, it saves 12 kg of modeled trip fuel and has a negligible difference in minutes."
+    },
+    {
+      "case_id": "OMDB-LEMD-A359-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.841,
+      "passed": true,
+      "text": "The selected synthetic trajectory from OMDB to LEMD covers 5660 km, takes an estimated 413 minutes, and uses 48404 kg of modeled trip fuel. Compared with the baseline, it saves 362 kg of modeled trip fuel and saves 2 minutes."
+    },
+    {
+      "api_error": "HTTP Error 422: Unprocessable Content",
+      "case_id": "OMDB-SKBO-B77W-minimum_time",
+      "passed": false
+    },
+    {
+      "case_id": "OTHH-HKJK-B788-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 5.275,
+      "passed": true,
+      "text": "The deterministic summary is as follows: For the minimum_fuel profile from OTHH to HKJK, the synthetic trajectory covers 3341 km, takes approximately 258 minutes, and uses 28525 kg of modeled trip fuel. Compared to the baseline, it saves 203 kg of modeled trip fuel and 1 minute. This is an educational trajectory-efficiency estimate, not operational flight-planning advice."
+    },
+    {
+      "case_id": "HECA-FAOR-A359-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.838,
+      "passed": true,
+      "text": "The selected synthetic trajectory from HECA to FAOR covers 6234 km, takes an estimated 452 minutes, and uses 53770 kg of modeled trip fuel. Compared with the baseline, it saves 405 kg of modeled trip fuel and saves 3 minutes."
+    },
+    {
+      "case_id": "OMDB-LTFM-A320-minimum_time",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.851,
+      "passed": true,
+      "text": "The selected synthetic trajectory from OMDB to LTFM covers 3032 km, takes an estimated 255 minutes, and uses 10113 kg of modeled trip fuel. Compared with the baseline, it saves 71 kg of modeled trip fuel and saves 1 minute."
+    },
+    {
+      "case_id": "RJAA-KSFO-B788-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.907,
+      "passed": true,
+      "text": "The selected synthetic trajectory from RJAA to KSFO covers 8246 km, takes an estimated 587 minutes, and uses 67985 kg of modeled trip fuel. Compared with the baseline, it saves 518 kg of modeled trip fuel and saves 3 minutes."
+    },
+    {
+      "case_id": "RJTT-ZBAA-A359-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.89,
+      "passed": true,
+      "text": "The selected synthetic trajectory from RJTT to ZBAA covers 2096 km, takes an estimated 175 minutes, and uses 19736 kg of modeled trip fuel. Compared with the baseline, it saves 132 kg of modeled trip fuel and saves 1 minute."
+    },
+    {
+      "case_id": "RKSI-WSSS-B738-minimum_time",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.897,
+      "passed": true,
+      "text": "The selected synthetic trajectory from RKSI to WSSS covers 4614 km, takes an estimated 363 minutes, and uses 15494 kg of modeled trip fuel. Compared with the baseline, it saves 113 kg of modeled trip fuel and saves 2 minutes."
+    },
+    {
+      "case_id": "VHHH-WMKK-A320-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 5.253,
+      "passed": true,
+      "text": "The deterministic summary is as follows: For the minimum_fuel profile, the synthetic trajectory from VHHH to WMKK covers 2535 km, takes an estimated 219 minutes, and uses 8548 kg of modeled trip fuel. Compared with the baseline, it saves 58 kg of modeled trip fuel and saves 1 minute. This is an educational trajectory-efficiency estimate, not operational flight-planning advice."
+    },
+    {
+      "case_id": "WSSS-VTBS-A320-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 3.757,
+      "passed": true,
+      "text": "The selected synthetic trajectory from WSSS to VTBS covers 1410 km, takes an estimated 137 minutes, and uses 5338 kg of modeled trip fuel. Compared with the baseline, it saves 33 kg of modeled trip fuel and saves 1 minute."
+    },
+    {
+      "case_id": "YSSY-NZCH-B738-minimum_time",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 4.683,
+      "passed": true,
+      "text": "The selected synthetic trajectory from YSSY to NZCH covers 2129 km, takes an estimated 186 minutes, and uses 7683 kg of modeled trip fuel. Compared with the baseline, it saves 51 kg of modeled trip fuel and saves 1 minute. This is an educational trajectory-efficiency estimate, not operational flight-planning advice."
+    },
+    {
+      "case_id": "SBGR-SBGL-A320-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 5.242,
+      "passed": true,
+      "text": "The deterministic summary is as follows: For the minimum_fuel profile, the synthetic trajectory from SBGR to SBGL covers 337 km, takes an estimated 59 minutes, and uses 2097 kg of modeled trip fuel. Compared with the baseline, it saves 7 kg of modeled trip fuel and has a negligible difference in minutes. This is an educational trajectory-efficiency estimate, not operational flight-planning advice."
+    }
+  ],
+  "evaluated_cases": 23,
+  "label": "mistral-7b-instruct-v0.3",
+  "latency_p50_s": 3.889,
+  "latency_p95_s": 5.253,
+  "pass_rate": 1.0,
+  "passed_cases": 23,
+  "peak_resident_memory_mb": 3207.8,
+  "repo_id": "mlx-community/Mistral-7B-Instruct-v0.3-4bit",
+  "revision": "a4b8f870474b0eb527f466a03fbc187830d271f5",
+  "total_cases": 24
+}

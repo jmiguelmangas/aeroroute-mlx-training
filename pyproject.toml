@@ -5,6 +5,12 @@ build-backend = "hatchling.build"
 name = "aeroroute-mlx-training"
 version = "0.1.0"
 requires-python = ">=3.12"
+[project.optional-dependencies]
+# transformers==5.13.0 has a real regression: mlx-lm's custom tokenizer
+# registration crashes with `AttributeError: 'str' object has no attribute
+# '__module__'` inside AutoTokenizer.register. Pin below that until fixed
+# upstream; aeroroute-mlx's lock happened to predate 5.13.0's release.
+mlx = ["mlx-lm", "huggingface-hub", "transformers<5.13.0"]
 [dependency-groups]
 dev = ["pytest>=8.0", "ruff>=0.11"]
 [tool.ruff]

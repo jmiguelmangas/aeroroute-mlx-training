@@ -1,0 +1,204 @@
+{
+  "api_errors": 1,
+  "cases": [
+    {
+      "case_id": "LEMD-LFPG-A320-balanced",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.752,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "EGLL-EDDF-A320-minimum_time",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 8.973,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "EHAM-LOWW-B738-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.096,
+      "passed": true,
+      "text": "brief explanation"
+    },
+    {
+      "case_id": "LEMD-EDDM-A320-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.031,
+      "passed": true,
+      "text": "brief explanation"
+    },
+    {
+      "case_id": "LFPG-LIMC-B738-minimum_time",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.033,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "EGLL-EBBR-A320-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.022,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "LEMD-KJFK-B77W-balanced",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.09,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "KJFK-LEMD-B788-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.059,
+      "passed": true,
+      "text": "brief explanation"
+    },
+    {
+      "case_id": "EDDF-KATL-B77W-minimum_time",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.142,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "EGLL-KBOS-B788-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.167,
+      "passed": true,
+      "text": "brief explanation"
+    },
+    {
+      "case_id": "LEMD-MMMX-A359-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.088,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "KJFK-CYUL-A320-minimum_time",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.096,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "OMDB-LEMD-A359-balanced",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.13,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "api_error": "HTTP Error 422: Unprocessable Content",
+      "case_id": "OMDB-SKBO-B77W-minimum_time",
+      "passed": false
+    },
+    {
+      "case_id": "OTHH-HKJK-B788-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.205,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "HECA-FAOR-A359-balanced",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.238,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "OMDB-LTFM-A320-minimum_time",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.299,
+      "passed": true,
+      "text": "brief explanation"
+    },
+    {
+      "case_id": "RJAA-KSFO-B788-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.325,
+      "passed": true,
+      "text": "brief explanation"
+    },
+    {
+      "case_id": "RJTT-ZBAA-A359-balanced",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.327,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "RKSI-WSSS-B738-minimum_time",
+      "data_degraded": true,
+      "error_reason": "ValueError: model output is not a JSON object",
+      "latency_s": 9.145,
+      "passed": false,
+      "text": ""
+    },
+    {
+      "case_id": "VHHH-WMKK-A320-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.335,
+      "passed": true,
+      "text": "brief explanation"
+    },
+    {
+      "case_id": "WSSS-VTBS-A320-balanced",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.235,
+      "passed": true,
+      "text": "brief explanation"
+    },
+    {
+      "case_id": "YSSY-NZCH-B738-minimum_time",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.203,
+      "passed": true,
+      "text": "brief explanation"
+    },
+    {
+      "case_id": "SBGR-SBGL-A320-minimum_fuel",
+      "data_degraded": true,
+      "error_reason": null,
+      "latency_s": 9.229,
+      "passed": true,
+      "text": "brief explanation"
+    }
+  ],
+  "evaluated_cases": 23,
+  "label": "qwen3-8b",
+  "latency_p50_s": 9.145,
+  "latency_p95_s": 9.335,
+  "pass_rate": 0.4348,
+  "passed_cases": 10,
+  "peak_resident_memory_mb": 3774.5,
+  "repo_id": "mlx-community/Qwen3-8B-4bit",
+  "revision": "545dc4251c05440727734bcd94334791f6ab0192",
+  "total_cases": 24
+}
